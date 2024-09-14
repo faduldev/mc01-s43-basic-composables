@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">S43BasicComposables</string>
+    <string name="welc_msg">\nHello World \n Welcome to Jetpack Compose</string>
+    <string name="text_src">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Etiam ac mollis nulla. Aenean fringilla pulvinar iaculis. Donec sit amet turpis venenatis,
+        finibus justo vel, elementum erat. Pellentesque pulvinar augue sit amet elit interdum gravida.
+        Vivamus sollicitudin in quam ac sodales. Quisque vel nisl auctor, fermentum metus eget,
+        semper arcu. Duis nec felis nec neque suscipit porttitor eu tincidunt lacus.
+        Nunc eget faucibus felis. Donec fermentum hendrerit convallis. Etiam non porta massa.
+        Pellentesque at ultrices ipsum, sit amet vulputate turpis. Etiam sit amet sapien sit amet metus
+        varius dapibus et ut sapien. Phasellus vitae venenatis risus. Duis eget finibus ex.
+        Sed volutpat, erat id maximus venenatis, purus erat volutpat enim, nec egestas erat diam vel metus.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Etiam ac mollis nulla. Aenean fringilla pulvinar iaculis. Donec sit amet turpis venenatis,
+        finibus justo vel, elementum erat. Pellentesque pulvinar augue sit amet elit interdum gravida.
+        Vivamus sollicitudin in quam ac sodales. Quisque vel nisl auctor, fermentum metus eget,
+        semper arcu. Duis nec felis nec neque suscipit porttitor eu tincidunt lacus.
+        Nunc eget faucibus felis. Donec fermentum hendrerit convallis. Etiam non porta massa.
+        Pellentesque at ultrices ipsum, sit amet vulputate turpis. Etiam sit amet sapien sit amet metus
+        varius dapibus et ut sapien. Phasellus vitae venenatis risus. Duis eget finibus ex.
+        Sed volutpat, erat id maximus venenatis, purus erat volutpat enim, nec egestas erat diam vel metus.
+    </string>
+</resources>
