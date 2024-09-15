@@ -44,7 +44,7 @@ import androidx.compose.ui.unit.dp
 import dev.fadul.s43basiccomposables.ui.theme.S43BasicComposablesTheme
 import androidx.compose.ui.Alignment.Companion.Start as Start1
 
-class MainActivity : ComponentActivity() {
+class MainActivity377 : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -53,8 +53,8 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     modifier = Modifier.padding(0.dp, 25.dp),
                     color = Color.White
-                    ) {
-                        Greeting()
+                ) {
+                    Greeting()
                 }
             }
         }
@@ -62,8 +62,27 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting() {
-
+fun Greeting377() {
+    // Displaying Images
+    Image(
+        painter = painterResource(id = R.drawable.tiger),
+        contentDescription = "Tiger",
+        modifier = Modifier
+            .size(400.dp)
+            .clip(CircleShape)
+            .border(width = 5.dp,
+                color = Color.Red,
+                shape = CircleShape
+            )
+            // Customizing the image
+            .scale(0.6f)                 // Reduce the size of the image
+            .aspectRatio(16f/9f)    // Change the aspect ratio
+            .blur(                       // Blur effect
+                radiusX = 10.dp,
+                radiusY = 10.dp,
+                edgeTreatment = BlurredEdgeTreatment.Unbounded),
+        contentScale = ContentScale.Crop // Content scale
+    )
 }
 
 
